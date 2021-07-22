@@ -1,0 +1,17 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MichaelBunting/pokedex.git",
+  "author": "MichaelBunting <mikebunting1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
